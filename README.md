@@ -12,7 +12,9 @@ Calculates the p-value for a 2x2 chi-square test.
 	- d: The count in cell B2.
 
 Example:
-`=CHISQ2X2(10, 20, 30, 40)`
+```
+=CHISQ2X2(10, 20, 30, 40)
+```
 
 ### CHISQ2X2YATES(a, b, c, d)
 Description: Calculates the p-value for a 2x2 chi-square test with Yates’ correction for continuity.
@@ -23,7 +25,9 @@ Description: Calculates the p-value for a 2x2 chi-square test with Yates’ corr
 	- d: The count in cell B2.
 
 Example:
-`=CHISQ2X2YATES(10, 20, 30, 40)`
+```
+=CHISQ2X2YATES(10, 20, 30, 40)
+```
 
 ## Installation
 ### Windows
@@ -46,10 +50,18 @@ Once installed, you can use the **CHISQ2X2** and **CHISQ2X2YATES** functions in 
 ### Examples
 
 Without Yates’ Correction:
-`=CHISQ2X2(10, 20, 30, 40)`
+```
+=CHISQ2X2(10, 20, 30, 40)
+```
+Returns: 0.372998484
+
 
 With Yates' Correction:
-`=CHISQ2X2YATES(10, 20, 30, 40)`
+```
+=CHISQ2X2YATES(10, 20, 30, 40)
+```
+Returns: 0.504035866
+
 
 ### License
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more details.
